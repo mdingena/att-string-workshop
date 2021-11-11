@@ -1,0 +1,27 @@
+{
+  "name": "att-string-workshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "encode": "ts-node ./encode.ts",
+    "decode": "ts-node ./decode.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdingena/att-string-workshop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mdingena/att-string-workshop/issues"
+  },
+  "homepage": "https://github.com/mdingena/att-string-workshop#readme",
+  "dependencies": {
+    "@types/node": "^16.11.7",
+    "att-string-transcoder": "^2.0.0",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.4.4"
+  }
+}
