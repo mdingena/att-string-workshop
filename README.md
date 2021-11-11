@@ -91,7 +91,7 @@ And like the handle, we can insert prefabs into this guard's slots:
 
 ```diff
 + const blade = createPrefab(Prefab.Metal_Hebios_Wakizashi_Blade)
-+   .setMaterial(PhysicalMaterialPartHash.Mythril)
++   .setMaterial('Mythril')
 +
   const guard = createPrefab(Prefab.Guard)
     .setMaterial('CarsiAlloy')
@@ -121,7 +121,7 @@ Let's complete our sword by adding a pommel:
 
 ```diff
   const blade = createPrefab(Prefab.Metal_Hebios_Wakizashi_Blade)
-    .setMaterial(PhysicalMaterialPartHash.Mythril)
+    .setMaterial('Mythril')
  
   const guard = createPrefab(Prefab.Guard)
     .setMaterial('CarsiAlloy')
