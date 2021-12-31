@@ -20,7 +20,7 @@
   "homepage": "https://github.com/mdingena/att-string-workshop#readme",
   "dependencies": {
     "@types/node": "^16.11.7",
-    "att-string-transcoder": "^2.0.0",
+    "att-string-transcoder": "^2.1.0",
     "ts-node": "^10.4.0",
     "typescript": "^4.4.4"
   }
