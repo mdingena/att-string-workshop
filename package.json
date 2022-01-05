@@ -14,8 +14,8 @@
     "url": "git+https://github.com/mdingena/att-string-workshop.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Marc Dingena",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/mdingena/att-string-workshop/issues"
   },
