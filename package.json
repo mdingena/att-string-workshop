@@ -1,10 +1,10 @@
 {
   "name": "att-string-workshop",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "preencode": "eslint --fix '**/*.{js,ts}'",
+    "preencode": "eslint --fix \"**/*.{js,ts}\"",
     "encode": "ts-node ./encode.ts",
     "decode": "ts-node ./decode.ts"
   },
