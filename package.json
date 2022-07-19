@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "compile": "tsc --noEmit",
     "preencode": "eslint --fix \"**/*.{js,ts}\"",
     "encode": "ts-node ./encode.ts",
     "decode": "ts-node ./decode.ts"
