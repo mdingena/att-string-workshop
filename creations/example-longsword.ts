@@ -30,9 +30,9 @@ export default handle;
 const handleWithDamagedBlade = handle.clone();
 
 handleWithDamagedBlade
-  .findChildPrefab('Guard')
+  .getChildPrefab('Guard')
   ?.setIntegrity(0.2)
-  .findChildPrefab('Large_Longsword_Blade')
+  .getChildPrefab('Large_Longsword_Blade')
   ?.setIntegrity(0.2);
 
 /**
@@ -44,7 +44,7 @@ const shortSword = handle.clone();
 
 shortSword
   .clone()
-  .findChildPrefab('Guard')
+  .getChildPrefab('Guard')
   ?.removeChildPrefab('Large_Longsword_Blade')
   .addChildPrefab('Slot_SwordType_39370', new Prefab('Short_Sword_Blade').setMaterial('Mythril'));
 
@@ -58,5 +58,5 @@ export { shortSword }; // Alternative named export syntax.
  */
 export const justTheBlade = handle
   .clone()
-  .findChildPrefab('Guard')
-  ?.findChildPrefab('Large_Longsword_Blade');
+  .getChildPrefab('Guard')
+  ?.getChildPrefab('Large_Longsword_Blade');
