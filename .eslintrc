@@ -2,10 +2,30 @@
   "root": true,
   "env": { "node": true },
   "parser": "@typescript-eslint/parser",
-  "plugins": ["@typescript-eslint"],
+  "parserOptions": {
+    "project": ["./tsconfig.json"]
+  },
+  "plugins": ["@typescript-eslint", "import"],
   "extends": [
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
+    "plugin:import/recommended",
+    "plugin:import/typescript",
     "prettier"
-  ]
+  ],
+  "settings": {
+    "import/resolver": {
+      "typescript": {
+        "extensions": [".js"],
+        "extensionAlias": {
+          ".js": [".ts"]
+        },
+        "project": ["./tsconfig.json"]
+      }
+    }
+  },
+  "rules": {
+    "import/no-unresolved": "error",
+    "import/extensions": ["error", "never", { "js": "always" }]
+  }
 }
