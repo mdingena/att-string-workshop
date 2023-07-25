@@ -8,7 +8,8 @@
     "format": "prettier --write \"**/*.{js,ts}\"",
     "preencode": "run-s lint format",
     "encode": "node --loader ts-node/esm --no-warnings ./scripts/encode.ts",
-    "decode": "node --loader ts-node/esm --no-warnings ./scripts/decode.ts"
+    "decode": "node --loader ts-node/esm --no-warnings ./scripts/decode.ts",
+    "repl": "node --loader ts-node/esm --no-warnings ./scripts/repl.ts"
   },
   "repository": {
     "type": "git",
