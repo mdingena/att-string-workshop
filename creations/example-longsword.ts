@@ -43,7 +43,6 @@ export const damagedSword = handleWithDamagedBlade; // Named export syntax.
 const shortSword = handle.clone();
 
 shortSword
-  .clone()
   .getChildPrefab('Guard')
   ?.removeChildPrefab('Large_Longsword_Blade')
   .addChildPrefab('Slot_SwordType_39370', new Prefab('Short_Sword_Blade').setMaterial('Mythril'));
