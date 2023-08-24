@@ -4,3 +4,4 @@ build/
 .eslintcache
 .tool-versions
 decoded.txt
+encoded.txt
