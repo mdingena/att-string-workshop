@@ -1,7 +1,7 @@
 {
   "name": "att-string-workshop",
   "version": "2.0.0",
-  "description": "",
+  "description": "Template project for working with A Township Tale's save string system. Allows easy creation of string weapons.",
   "type": "module",
   "scripts": {
     "lint": "eslint --cache --fix \"**/*.{js,ts}\"",
