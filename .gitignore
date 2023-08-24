@@ -1,3 +1,7 @@
 package-lock.json
 node_modules/
 build/
+.eslintcache
+.tool-versions
+decoded.txt
+encoded.txt
